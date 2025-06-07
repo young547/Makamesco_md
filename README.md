@@ -20,7 +20,7 @@
 
   
 
-<a href="https://github.com/sesco001/Makamesco_md/tree/main/fork"><img src="https://img.shields.io/badge/CLICK%20HERE-purple" alt="FORK MAKAMESCO_MD" width="150"></a>
+<a href="https://github.com/sesco001/Makamesco_md/fork"><img src="https://img.shields.io/badge/CLICK%20HERE-purple" alt="FORK MAKAMESCO_MD" width="150"></a>
 
   <a href="https://makamesco-md-code.onrender.com"><img title="GET-SESSION ID HERE" src="https://img.shields.io/badge/GET-SESSION ID HERE-h?color=green&style=for-the-badge&logo=kenya" width="230" height="38.45"/></a></p>
 
