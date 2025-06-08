@@ -100,13 +100,13 @@
       "required": true
     },
     "SESSION_ID": {
-      "description": "Enter your session ID, the code you receive after scanning the QR code",
+      "description": "Enter your session ID, the code you receive after scanning the QR code",57
       "value": "",
       "required": true
     },
     "OWNER_NAME": {
       "description": "don't you have a name bro.Insert your name here!!",
-      "value": "FrediEzra",
+      "value": "Makamesco",
       "required": false
     },
     "URL": {
@@ -120,7 +120,7 @@
       "required": false  
     },
     "NUMERO_OWNER": {
-      "description": "Your phone number (exclude '+' and area code, e.g., '255752593977')",
+      "description": "Your phone number (exclude '+' and area code, e.g., '254739285768')",
       "value": "254739285768",
       "required": false
     },
