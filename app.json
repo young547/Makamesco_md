@@ -120,7 +120,7 @@
       "required": false  
     },
     "NUMERO_OWNER": {
-      "description": "Your phone number (exclude '+' and area code, e.g., '254739285768')",
+      "description": "Your phone number (exclude '+' and area code, e.g., '255752593977')",
       "value": "254739285768",
       "required": false
     },
