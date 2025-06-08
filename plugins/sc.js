@@ -46,10 +46,10 @@ const date = moment().format('DD/MM/YYYY');
 > https://Makamescodigitalsolutions.com
 
 *TELEGRAM GROUP*
-> https://t.me/+u3zlb5y6OfxhOTdk
+> https://t.me/sescotechsolutions
 
-*FOR DEVELOPER T.ME*
-> https://t.me/freditech
+*FOR DEVELOPER Wa.ME*
+> https://wa.me/+2540739285768?text=I_need_bot_Sir_ill_pay
 
 *WHATSAPP CHANNEL*
 > https://whatsapp.com/channel/0029VbAEL9r5vKA7RCdnYG0S 
