@@ -1,17 +1,11 @@
-const {
-  ezra
-} = require("./../fredi/ezra");
-const {
-  format,
-  runtime
-} = require('../fredi/mesfonctions');
+const { ezra } = require("./../fredi/ezra");
+const { format, runtime } = require('../fredi/mesfonctions');
 const os = require('os');
 const speed = require('performance-now');
-const {
-  performance
-} = require('perf_hooks');
+const { performance } = require('perf_hooks');
 const conf = require('../set');
 
+// ✅ Stylish Ping Command
 ezra(
   {
     nomCom: 'ping',
@@ -21,29 +15,50 @@ ezra(
   },
 
   async (dest, zk, commandOptions) => {
-    const {
-      ms, arg, repondre
-    } = commandOptions;
+    const { ms, arg, repondre } = commandOptions;
+
     const start = new Date().getTime();
+
     const msg = await zk.sendMessage(dest, {
-      text: '*Testing Ping!!!*',
+      text: `🏓 *Pinging the system...* ⏳`,
     }, {
       quoted: ms
     });
+
     const end = new Date().getTime();
     const ping = end - start;
+
+    const uptime = runtime(process.uptime());
+    const now = new Date();
+    const timeStr = now.toLocaleTimeString('en-KE', { timeZone: 'Africa/Nairobi' });
+    const dateStr = now.toLocaleDateString('en-KE', { timeZone: 'Africa/Nairobi' });
+
+    const result = `
+╭───〘 *MAKAMESCO 𝐌𝐃 𝐒𝐘𝐒𝐓𝐄𝐌* 〙───◆
+│💥 *Ping:* ${ping} ms
+│⏱️ *Uptime:* ${uptime}
+│🗓️ *Date:* ${dateStr}
+│🕐 *Time:* ${timeStr}
+╰──────────────◆`;
+
     await zk.sendMessage(dest, {
-      text: `*Pong*
- *${ping} ms*`, edit: {
-        id: msg.key.id, remoteJid: dest
-      }});
+      text: result,
+      edit: {
+        id: msg.key.id,
+        remoteJid: dest
+      }
+    });
+
     await zk.sendMessage(dest, {
       react: {
-        text: "⚙️", key: ms.key
-      }})
+        text: "⚡",
+        key: ms.key
+      }
+    });
   }
-)
+);
 
+// ✅ Unchanged desc command
 ezra(
   {
     nomCom: 'desc',
@@ -52,27 +67,22 @@ ezra(
   },
 
   async (dest, zk, commandOptions) => {
-    const {
-      ms, arg, repondre
-    } = commandOptions;
-    // data
+    const { ms, arg, repondre } = commandOptions;
     const tumbUrl = 'https://i.ibb.co/wyYKzMY/68747470733a2f2f74656c656772612e70682f66696c652f6530376133643933336662346361643062333739312e6a7067.jpg';
     const used = process.memoryUsage();
     const cpus = os.cpus().map(cpu => {
       cpu.total = Object.keys(cpu.times).reduce((last, type) => last + cpu.times[type], 0);
-      return cpu
+      return cpu;
     });
-    const cpu = cpus.reduce((last, cpu, _, {
-      length
-    }) => {
-      last.total += cpu.total
-      last.speed += cpu.speed / length
-      last.times.user += cpu.times.user
-      last.times.nice += cpu.times.nice
-      last.times.sys += cpu.times.sys
-      last.times.idle += cpu.times.idle
-      last.times.irq += cpu.times.irq
-      return last
+    const cpu = cpus.reduce((last, cpu, _, { length }) => {
+      last.total += cpu.total;
+      last.speed += cpu.speed / length;
+      last.times.user += cpu.times.user;
+      last.times.nice += cpu.times.nice;
+      last.times.sys += cpu.times.sys;
+      last.times.idle += cpu.times.idle;
+      last.times.irq += cpu.times.irq;
+      return last;
     }, {
       speed: 0,
       total: 0,
@@ -100,7 +110,7 @@ _NodeJS Memory Usaage_
 ${cpus[0] ? `_Total CPU Usage_
     ${cpus[0].model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type => `- *${(type + '*').padEnd(6)}: ${(100 * cpu.times[type] / cpu.total).toFixed(2)}%`).join('\n')}
 _CPU Core(s) Usage (${cpus.length} Core CPU)_
-    ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type => `- *${(type + '*').padEnd(6)}: ${(100 * cpu.times[type] / cpu.total).toFixed(2)}%`).join('\n')}`).join('\n\n')}`: ''}
+    ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type => `- *${(type + '*').padEnd(6)}: ${(100 * cpu.times[type] / cpu.total).toFixed(2)}%`).join('\n')}`).join('\n\n')}` : ''}
     `.trim();
     await zk.sendMessage(dest, {
       text: response,
@@ -117,10 +127,11 @@ _CPU Core(s) Usage (${cpus.length} Core CPU)_
       }
     }, {
       quoted: ms
-    })
+    });
   }
 );
 
+// ✅ Unchanged runtime command
 ezra(
   {
     nomCom: 'runtime',
@@ -128,9 +139,7 @@ ezra(
     alias: ['uptime']
   },
   async (dest, zk, commandOptions) => {
-    const {
-      ms
-    } = commandOptions;
+    const { ms } = commandOptions;
     const tumbUrl = 'https://i.ibb.co/wyYKzMY/68747470733a2f2f74656c656772612e70682f66696c652f6530376133643933336662346361643062333739312e6a7067.jpg';
     const runtimetext = `🚨 *Bot Have Been Running For ${runtime(process.uptime())}* 🚨`;
     zk.sendMessage(dest, {
@@ -148,7 +157,6 @@ ezra(
       }
     }, {
       quoted: ms
-    })
+    });
   }
 );
-    
