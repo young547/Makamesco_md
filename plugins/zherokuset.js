@@ -59,7 +59,7 @@ ezra({
 
 ezra({
   nomCom: 'autoreact',
-  categorie: "LUCKY-SETTING"
+  categorie: "Maka-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -100,7 +100,7 @@ ezra({
 
 ezra({
   nomCom: 'autoreadstatus',
-  categorie: "LUCKY-SETTING"
+  categorie: "maka-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -140,7 +140,7 @@ ezra({
 });
 ezra({
   nomCom: 'antidelete',
-  categorie: "LUCKY-SETTING"
+  categorie: "maka-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -181,7 +181,7 @@ ezra({
 
 ezra({
   nomCom: 'autodownloadstatus',
-  categorie: "LUCKY-SETTING"
+  categorie: "maka-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -222,7 +222,7 @@ ezra({
 
 ezra({
   nomCom: 'startingmessage',
-  categorie: "LUCKY-SETTING"
+  categorie: "maka-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -263,7 +263,7 @@ ezra({
 
 ezra({
   nomCom: 'autoreadmessage',
-  categorie: "LUCKY-SETTING"
+  categorie: "maka-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -304,7 +304,7 @@ ezra({
 
 ezra({
   nomCom: 'pm-permit',
-  categorie: "LUCKY-SETTING"
+  categorie: "maka-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -344,7 +344,7 @@ ezra({
 });
 ezra({
   nomCom: 'autosavecontact',
-  categorie: "LUCKY-SETTING"
+  categorie: "Maka-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -384,7 +384,7 @@ ezra({
 });
 ezra({
   nomCom: 'autoreply',
-  categorie: "LUCKY-SETTING"
+  categnomCom"maka -SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -425,7 +425,7 @@ ezra({
 
 ezra({
   nomCom: 'autobio',
-  categorie: "LUCKY-SETTING"
+  categorie: "maka-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -466,7 +466,7 @@ ezra({
 
 ezra({
   nomCom: 'publicmode',
-  categorie: "LUCKY-SETTING"
+  categorie: "maka-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -507,7 +507,7 @@ ezra({
 
 ezra({
   nomCom: 'autorecord',
-  categorie: "LUCKY-SETTING"
+  categorie: "MAKA-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -548,7 +548,7 @@ ezra({
 
 ezra({
   nomCom: 'autotyping',
-  categorie: "LUCKY-SETTING"
+  categorie: "MAKA-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -589,7 +589,7 @@ ezra({
 
 ezra({
   nomCom: 'alwaysonline',
-  categorie: "LUCKY-SETTING"
+  categorie: "MAKA-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -630,7 +630,7 @@ ezra({
 
 ezra({
   nomCom: 'privatemode',
-  categorie: "LUCKY-SETTING"
+  categorie: "MAKA-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -670,7 +670,7 @@ ezra({
 });
 ezra({
   nomCom: 'autoreactstatus',
-  categorie: "LUCKY-SETTING"
+  categorie: "MAKA-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -710,7 +710,7 @@ ezra({
 });
 ezra({
   nomCom: 'audioreply',
-  categorie: "LUCKY-SETTING"
+  categorie: "MAKA-SETTING"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
@@ -751,7 +751,7 @@ ezra({
 
 ezra({
   nomCom: 'setting',
-  categorie: "LUCKY-SETTING"
+  categorie: "MAKA-SETTING"
 }, async (chatId, messagingService, context) => {
   const { ms, repondre, superUser, auteurMessage } = context;
   
