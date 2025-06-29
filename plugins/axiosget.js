@@ -21,7 +21,7 @@ ezra({
       text: news,
       contextInfo: {
         externalAdReply: {
-          title: "LUCKY-MD TECH NEWS",
+          title: "Makamesco-MD TECH NEWS",
           body: "keep learning", 
           thumbnailUrl: thumbnail, 
           sourceUrl: conf.GURL, 
@@ -81,7 +81,7 @@ ezra({
     
     const data = response.data;
     const messageText = `
-ᕙ⁠ *LUCKY MD HOLY BIBLE* ᕗ
+ᕙ⁠ *MAKAMESCO MD HOLY BIBLE* ᕗ
 
 ✿⁠ *_WE'RE READING:_* ${data.reference}
 
@@ -98,7 +98,7 @@ ezra({
       text: messageText,
       contextInfo: {
         externalAdReply: {
-          title: "LUCKY-MD HOLY BIBLE",
+          title: "MAKAMESCO-MD HOLY BIBLE",
           body: `We're reading: ${data.reference}`,
           mediaType: 1,
           thumbnailUrl: "https://files.catbox.moe/7irwqn.jpeg", 
@@ -153,7 +153,7 @@ ezra({
         text: definitionMessage,
         contextInfo: {
           externalAdReply: {
-            title: "LUCKY-MD DICTIONARY",
+            title: "MAKAMESCO-MD DICTIONARY",
             body: `Definition of ${term}`,
             mediaType: 1,
             thumbnailUrl: "https://files.catbox.moe/7irwqn.jpeg", 
@@ -204,7 +204,7 @@ ezra({
         text: pairingCode,
         contextInfo: {
           externalAdReply: {
-            title: "LUCKY-MD PAIR CODE",
+            title: "MAKAMESCO-MD PAIR CODE",
             body: "Here is your pairing code:",
             mediaType: 1,
             thumbnailUrl: conf.URL, 
@@ -324,7 +324,7 @@ ezra({
       text: githubMessage,
       contextInfo: {
         externalAdReply: {
-          title: "LUCKY-MD GITHUB USER INFO",
+          title: "MAKAMESCO-MD GITHUB USER INFO",
           body: `Information about ${data.login}`,
           mediaType: 1,
           thumbnailUrl: thumb,
@@ -467,7 +467,7 @@ ezra({
 
 🔗 *URL*: ${con.content_urls.mobile.page}
 
-> Powered by Lucky Md
+> Powered by MAKAMESCO Md
     `;
     repondre(texa);
   } catch (err) {
