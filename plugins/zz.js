@@ -90,13 +90,13 @@ ezra({
     // Prepare the message payload with external ad details
     const messagePayloads = [
       {
-      caption: `\n*LUCKY MD AUDIOS*\n
+      caption: `\n*Makamesco MD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Made:* in Arusha Tanzania 
+┊ *Made:* in 🇰🇪 
 ┊ *Quality:* High
-┊ *Powered:* by FrediEtech 
+┊ *Powered:* by marcas
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/Fred1e/LUCKY_MD
+🌐 *Bot Repo:* https://github.com/sesco001/Makamesco_md
 
 > regards frediezra`,
         audio: { url: downloadUrl },
@@ -114,13 +114,13 @@ ezra({
         },
       },
       {
-      caption: `\n*LUCKY MD AUDIOS*\n
+      caption: `\n*MakamescoD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Made:* in Arusha Tanzania 
+┊ *Made:* in 🇰🇪 
 ┊ *Quality:* High
-┊ *Powered:* by FrediEtech 
+┊ *Powered:* by marcas
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/Fred1e/LUCKY_MD
+🌐 *Bot Repo:* https://github.com/sesco001/Makamesco_md
 
 > regards frediezra`,
         document: { url: downloadUrl },
@@ -138,15 +138,15 @@ ezra({
         },
       },
       {
-      caption: `\n*LUCKY MD AUDIOS*\n
+      caption: `\n*Makamesco MD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Made:* in Arusha Tanzania 
+┊ *Made:* in 🇰🇪 
 ┊ *Quality:* High
-┊ *Powered:* by FrediEtech 
+┊ *Powered:* by marcas
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/Fred1e/LUCKY_MD
+🌐 *Bot Repo:* https://github.com/sesco001/Makamesco_md
 
-> regards frediezra`,
+> regards meshack matheka `,
         document: { url: downloadUrl },
         mimetype: 'audio/mp4',
         contextInfo: {
@@ -239,13 +239,13 @@ ezra({
     // Prepare the message payload with external ad details
     const messagePayloads = [
       {
-      caption: `\n*LUCKY MD AUDIOS*\n
+      caption: `\n*makamesco MD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Made:* in Arusha Tanzania 
+┊ *Made:* in 🇰🇪 
 ┊ *Quality:* High
-┊ *Powered:* by FrediEtech 
+┊ *Powered:* by meshack
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/Fred1e/LUCKY_MD
+🌐 *Bot Repo:* https://github.com/sesco001/Makamesco_md
 
 > regards frediezra`,
         video: { url: downloadUrl },
@@ -263,15 +263,15 @@ ezra({
         },
       },
       {
-      caption: `\n*LUCKY MD AUDIOS*\n
+      caption: `\n*Marcas MD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Made:* in Arusha Tanzania 
+┊ *Made:* in Kenya 
 ┊ *Quality:* High
-┊ *Powered:* by FrediEtech 
+┊ *Powered:* by marcas
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/Fred1e/LUCKY_MD
+🌐 *Bot Repo:* https://github.com/sesco001/Makamesco_md
 
-> regards frediezra`,
+> regards meshack matheka `,
         document: { url: downloadUrl },
         mimetype: 'video/mp4',
         contextInfo: {
