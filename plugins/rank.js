@@ -134,7 +134,7 @@ ezra( {
     
     
          let msg = `
-┏━━━┛ Makamesco Md Ranked ┗━━━┓
+┏━━━┛ Lucky Md Ranked ┗━━━┓
          
     *Name :* @${auteurMsgRepondu.split("@")[0]}
     
@@ -146,7 +146,7 @@ ezra( {
 
     *Messages :* ${rank.messages}
     
-   ┕━✿━┑ MakaTech ┍━✿━┙`
+   ┕━✿━┑ FredieTech ┍━✿━┙`
     
      zk.sendMessage( 
         dest,
@@ -210,7 +210,7 @@ ezra( {
     
     
          let msg = `
-┏━━━┛ HERE IS MAKAMESCO RANK  ┗━━━┓
+┏━━━┛ HERE IS LUCKY RANK  ┗━━━┓
      
   *Name :* ${nomAuteurMessage}
 
@@ -222,7 +222,7 @@ ezra( {
 
   *Messages :* ${rang.messages}
 
-   ┕━✿━┑ makamescotech ┍━✿━┙`
+   ┕━✿━┑ FredieTech ┍━✿━┙`
     
      zk.sendMessage( 
         dest,
@@ -251,7 +251,7 @@ ezra( {
     const {ms , mybotpic} = commandeOptions ;
 
 
-       let msg = `┏━━┛ makamesco Md┗━━┓\n\n`
+       let msg = `┏━━┛ Lucky Md┗━━┓\n\n`
        
       let topRanks = await getBottom10Users() ;
         let mention = [] ;
