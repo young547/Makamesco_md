@@ -1,62 +1,66 @@
-<a><img src='https://files.catbox.moe/sigghy.jpg'/></a>
-<h1 align="center"> MAKAMESCO_XMD </h1>
-<h1 align="center"> Stay on track everyone is mad </h1>
+<h1 align="center">MAKAMESCO_XMD</h1>
+<h1 align="center">Stay on track everyone is mad</h1>
 
-<details>
-  <summary>𝐕𝐈𝐄𝐖 𝐋𝐀𝐓𝐄𝐒𝐓 𝐁𝐎𝐓 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 𝐇𝐄𝐑𝐄👇</summary>
-  - 𝑨𝒍𝒍 𝑫𝒐𝒘𝒏𝒍𝒐𝒂𝒅𝒆𝒓𝒔 𝑭𝒊𝒙𝒆𝒅 𝒂𝒏𝒅 𝒂𝒓𝒆 𝑾𝒐𝒓𝒌𝒊𝒏𝒈🔥.<br>
-  - 𝑶𝒗𝒆𝒓𝒂𝒍 𝑷𝒆𝒓𝒇𝒐𝒓𝒎𝒂𝒏𝒄𝒆 𝑰𝒎𝒑𝒓𝒐𝒗𝒆𝒎𝒆𝒏𝒕𝒔🤫.
-</details>
+<a href="#"><img src="https://files.catbox.moe/sigghy.jpg" alt="Makamesco Banner"/></a>
 
-## **👇FORK REPO**
-<a href="https://github.com/sesco001/Makamesco_md/fork">
-  <img src="https://img.shields.io/badge/CLICK%20HERE-purple" alt="FORK MAKAMESCO_MD" width="150">
+## 🚀 One-Click Setup Buttons
+
+<a href="https://github.com/mesh-matheka/Makamesco_md/fork" target="_blank">
+  <img src="https://img.shields.io/badge/FORK%20REPOSITORY-purple?style=for-the-badge&logo=github" alt="Fork Makamesco_md" width="240">
 </a>
 
-<a href="https://makamesco-md-code.onrender.com">
-  <img title="GET-SESSION ID HERE" src="https://img.shields.io/badge/GET-SESSION ID HERE-h?color=green&style=for-the-badge&logo=kenya" width="230" height="38.45"/>
+<a href="https://pairmakamesco.onrender.com">
+  <img title="GET SESSION ID" src="https://img.shields.io/badge/GET-SESSION ID HERE-green?style=for-the-badge&logo=kenya" width="230" height="38.45"/>
 </a>
 
-### 𝐃𝐄𝐏𝐋𝐎𝐘:
+### 📤 Deployment Options
 
-<a href="https://deployment-site-amber.vercel.app/" target="_blank">
-  <img src="https://img.shields.io/badge/DEPLOY%20NOW-blue?style=for-the-badge&logo=vercel" alt="Deploy Icon" width="200">
+<!-- ✅ Heroku Deploy Button (Fixed) -->
+<a href="https://heroku.com/deploy?template=https://github.com/mesh-matheka/Makamesco_md" target="_blank">
+  <img src="https://img.shields.io/badge/DEPLOY%20TO%20HEROKU-purple?style=for-the-badge&logo=heroku&logoColor=white" alt="Deploy on Heroku" width="220">
 </a>
 
-<br>
+<!-- ➕ Render Deploy Button (New) -->
+<a href="https://render.com" target="_blank">
+  <img src="https://img.shields.io/badge/DEPLOY%20TO%20RENDER-blue?style=for-the-badge&logo=render&logoColor=white" alt="Deploy on Render" width="220">
+</a>
 
-**𝗛𝗢𝗦𝗧 𝗢𝗡 𝗗𝗜𝗦𝗖𝗢𝗥𝗗**
+<!-- Optional Panel Deployment -->
+<a href="https://spank-ver.vercel.app/" target="_blank">
+  <img src="https://img.shields.io/badge/DEPLOY%20ON%20PANEL-red?style=for-the-badge&logo=serverfault" alt="Deploy on Panel" width="220">
+</a>
+
+---
+
+## 📦 More Options
 <details>
 <summary>CLICK FOR MORE</summary>
-<a href="https://github.com/sesco001/Makamesco_md/archive/refs/heads/main.zip">
-  <img src="https://img.shields.io/badge/DOWNLOAD%20FILES-yellow" alt="Rainhost Files" width="150">
+
+<a href="https://github.com/sesco001/Spank-md/archive/refs/heads/main.zip">
+  <img src="https://img.shields.io/badge/DOWNLOAD%20FILES-yellow" alt="Download Zip" width="150">
 </a>
-  
-<a href="https://bot-hosting.net/?aff=1259151615210819614">
-  <img src="https://img.shields.io/badge/SIGNUP%20&%20DEPLOY-gold" alt="Scalingo Deploy" width="150">
+
+<a href="https://dashboard.katabump.com/auth/login#5e58ec">
+  <img src="https://img.shields.io/badge/SIGNUP%20&%20DEPLOY-gold" alt="Sign Up Hosting" width="150">
 </a>
+
 </details>
 
-<a><img src='https://files.catbox.moe/sigghy.jpg'/></a>
+---
 
-## 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗨𝗦 𝗕𝗬 𝗝𝗢𝗜𝗡𝗜𝗡𝗚 𝗧𝗛𝗘𝗦𝗘 𝗟𝗜𝗡𝗞𝗦
-
-**WEBSITE**  
+## 🔥 BOOST FOLLOWERS
 <a href="https://Makamescodigitalsolutions.com" target="_blank">
-  <img alt="CLICK HERE" src="https://img.shields.io/badge/ VISIT TO MY WEBSITE  -25D366?style=for-the-badge&logo=discord&logoColor=white" />
+  <img alt="CLICK HERE" src="https://img.shields.io/badge/VISIT%20TO%20MY%20WEBSITE-25D366?style=for-the-badge&logo=discord&logoColor=white" />
 </a>
 
-**𝗖𝗵𝗮𝗻𝗻𝗲𝗹**  
+## 📣 Official Channel
 <p align="center">
   <a href="https://whatsapp.com/channel/0029VbAEL9r5vKA7RCdnYG0S">
-    <img alt="SIEGRIN | WhatsApp" width="86px" src="https://raw.githubusercontent.com/PikaBotz/My_Personal_Space/main/Images/AnyaBot_pics/Anya_v2/Whatsapp.svg" />
+    <img alt="WhatsApp Channel" width="86px" src="https://raw.githubusercontent.com/PikaBotz/My_Personal_Space/main/Images/AnyaBot_pics/Anya_v2/Whatsapp.svg" />
   </a>
 </p>
 
-<br clear="all">
 <p align="center"><b>Stay using Makamesco md</b></p>
-
----
 
 <p align="center">
   🙏 Special thanks to <a href="https://github.com/mr-X-force" target="_blank">mr-X-force</a> for the Baileys support and all contributions.
